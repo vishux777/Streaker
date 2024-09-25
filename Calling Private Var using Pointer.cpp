@@ -17,6 +17,5 @@ int main() {
     MyClass obj(input);
     int* p = (int*)&obj;
     cout <<*p << endl;
-
     return 0;
 }
