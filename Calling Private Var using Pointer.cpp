@@ -1,8 +1,10 @@
 #include <iostream>
+##not for proper use may cause errors.
 using namespace std;
 class MyClass {
 private:
     int privateVar;
+
 public:
     MyClass(int value) : privateVar(value) {}
 
