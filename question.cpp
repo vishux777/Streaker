@@ -10,7 +10,6 @@ void reverseSentence(string s){
             temp += s[i];
             i++;
         }
-        
         st.push(temp);
     }
     // print the word from the stack
