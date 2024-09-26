@@ -12,7 +12,7 @@ void reverseSentence(string s){
         }
         st.push(temp);
     }
-    // print the word from the stack
+    // print the word from the stack.
     // by continuously popping the stack
     while(!st.empty()){
         cout << st.top() << " ";
