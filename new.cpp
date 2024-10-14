@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-template <class T>;
+template <class T>
 class calculate{
     private:
     T x,y;
@@ -18,7 +18,10 @@ class calculate{
 int main(){
     /*calculate obj1(2,5);
     obj1.add();*/
-    #new way----------------------------
+    /*new way----------------------------*/
 
-    
+    calculate<int> obj1(5,7);
+    obj1.add();
+    calculate<double> obj2(4.7,8.2);
+    obj2.add();
 }
