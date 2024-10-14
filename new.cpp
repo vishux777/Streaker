@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
+template <class T>;
 class calculate{
     private:
-    int x,y;
+    T x,y;
 
     public:
-    calculate(int num1,int num2){
+    calculate(T num1,T num2){
         x=num1;
         y=num2;
     }
@@ -15,6 +16,9 @@ class calculate{
     
 };
 int main(){
-    calculate obj1(2,5);
-    obj1.add();
+    /*calculate obj1(2,5);
+    obj1.add();*/
+    #new way----------------------------
+
+    
 }
