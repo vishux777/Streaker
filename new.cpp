@@ -24,4 +24,6 @@ int main(){
     obj1.add();
     calculate<double> obj2(4.7,8.2);
     obj2.add();
+    calculate<string> obj3("ram","ram");
+    obj3.add();
 }
