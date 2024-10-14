@@ -6,5 +6,5 @@ T add(T num1,T num2){
 }
 int main(){
     cout<<add<int>(2,4);
-    cout<<add<string>("\nbhai","hello");
+    cout<<add<string>("bhai","hello");
 }
