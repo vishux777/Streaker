@@ -5,6 +5,7 @@ class MyClass {
 private:
     int privateVar;
 
+
 public:
     MyClass(int value) : privateVar(value) {}
 
